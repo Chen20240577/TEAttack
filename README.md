@@ -5,7 +5,7 @@
 
 This repository contains the code for our paper:  
 **An Empirical Study on Transferable Identifier-Level Adversarial Example Generation in\\Code Language Models**  
-*Lili Bo, Linhua Chen, Xiangyue Liu, Xiaobing Sun, Lina Gong, Sicong Cao*  
+**  
 
 We conduct an empirical study on transferable AE generation and propose a novel method called TEAttack to enhance transferable AE generation across CodeLMs.
 
