@@ -1,0 +1,51 @@
+CSV文件合并报告
+==================================================
+
+任务: authorship
+输出文件: ../merged_record\authorship_merged.csv
+合并列: ['Index', 'Code', 'names_positions', 'bert Score', 'gcbert Score', 'gpt2 Score', 't5 Score']
+合并统计:
+  - 总行数: 123
+  - 成功合并: 316
+  - 合并失败: 53
+  - 成功率: 85.6%
+缺失Index统计:
+  - gcbert: 3 个Index缺失
+  - gpt2: 32 个Index缺失
+  - t5: 18 个Index缺失
+
+--------------------------------------------------
+
+任务: clone
+输出文件: ../merged_record\clone_merged.csv
+合并列: ['Index', 'Code', 'names_positions', 'bert Score', 'gcbert Score', 'gpt2 Score', 't5 Score']
+合并统计:
+  - 总行数: 469
+  - 成功合并: 1390
+  - 合并失败: 17
+  - 成功率: 98.8%
+缺失Index统计:
+  - gcbert: 7 个Index缺失
+  - gpt2: 4 个Index缺失
+  - t5: 2 个Index缺失
+列不匹配统计:
+  - gcbert: 2 处前三列不匹配
+  - gpt2: 2 处前三列不匹配
+
+--------------------------------------------------
+
+任务: defect
+输出文件: ../merged_record\defect_merged.csv
+合并列: ['Index', 'Code', 'names_positions', 'bert Score', 'gcbert Score', 'gpt2 Score', 't5 Score']
+合并统计:
+  - 总行数: 173
+  - 成功合并: 427
+  - 合并失败: 92
+  - 成功率: 82.3%
+缺失Index统计:
+  - gcbert: 24 个Index缺失
+  - gpt2: 31 个Index缺失
+  - t5: 37 个Index缺失
+
+--------------------------------------------------
+

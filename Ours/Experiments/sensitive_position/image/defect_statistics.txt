@@ -1,0 +1,4 @@
+=== Statistical Analysis Report for defect Task ===
+Generated: 2026-06-16 19:05:43
+Original rows: 0
+Rows after filtering (all four columns non-null): 0

@@ -1,0 +1,4 @@
+=== Statistical Analysis Report for clone Task ===
+Generated: 2026-06-16 19:05:42
+Original rows: 0
+Rows after filtering (all four columns non-null): 0
