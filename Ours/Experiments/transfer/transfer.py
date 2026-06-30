@@ -19,9 +19,8 @@ Models = ['bert', 'gcbert', 't5', 'gpt2']
 # attackers = ['Alert_GA_random_thld_000', 'Alert_GA_random_thld_100','Alert_GR_random_thld_100',
 # 'Alert_GA_word2vec_thld_100','Alert_GA_wordnet_thld_100','Alert_GA_model_thld_100', 'Alert_GA_model_thld_000']
 
-attackers = ['GA_random_30_thld_000', 'GA_random_100_thld_000', 'GA_random_200_thld_000',
-             'GA_random_500_thld_000', 'GA_random_2000_thld_000']
-# attackers = ['GA_random_5000_thld_000']
+attackers = ['Alert_GA_random_thld_100']
+
 
 paths_front = {
     "ACCENT": "../../../AdvExamples/",

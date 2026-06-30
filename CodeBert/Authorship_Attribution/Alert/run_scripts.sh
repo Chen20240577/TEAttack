@@ -3,10 +3,6 @@
 # tail -f ../logs/run_scripts.log
 
 
-#python substitutes.py
-#sleep 5
-#nvidia-smi | grep 'python' | awk '{print $5}' | xargs -r -I{} kill -9 {}
-
 python GA-Attack_disturb.py
 
 #python feature_adv_get.py

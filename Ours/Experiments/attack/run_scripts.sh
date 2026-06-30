@@ -3,5 +3,5 @@
 # tail -f ./logs/run_scripts.log
 # chmod +x run_scripts.sh
 
-python TEAA.py
+python TEAttack.py
 
