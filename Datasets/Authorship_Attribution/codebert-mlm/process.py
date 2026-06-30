@@ -63,8 +63,8 @@ def preprocess_java40(split_portion=0.8):
     需要将结果分成train和valid
     '''
     data_name = "java40"
-    folder = os.path.join('../data_folder', data_name)
-    output_dir = os.path.join('../data_folder', "processed_" + data_name)
+    folder = os.path.join('../codebert-mlm', data_name)
+    output_dir = os.path.join('../codebert-mlm', "processed_" + data_name)
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     authors = os.listdir(folder)

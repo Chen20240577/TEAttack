@@ -1,4 +1,0 @@
-=== Statistical Analysis Report for authorship Task ===
-Generated: 2026-06-16 19:05:40
-Original rows: 0
-Rows after filtering (all four columns non-null): 0
